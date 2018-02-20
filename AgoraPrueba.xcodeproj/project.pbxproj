@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9866F4B203C5CB60061117F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9866F4A203C5CB60061117F /* AppDelegate.swift */; };
+		A9866F4D203C5CB60061117F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9866F4C203C5CB60061117F /* ViewController.swift */; };
+		A9866F50203C5CB60061117F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9866F4E203C5CB60061117F /* Main.storyboard */; };
+		A9866F52203C5CB60061117F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9866F51203C5CB60061117F /* Assets.xcassets */; };
+		A9866F55203C5CB60061117F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9866F53203C5CB60061117F /* LaunchScreen.storyboard */; };
+		A9866F60203C5CB60061117F /* AgoraPruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9866F5F203C5CB60061117F /* AgoraPruebaTests.swift */; };
+		A9866F6B203C5CB60061117F /* AgoraPruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9866F6A203C5CB60061117F /* AgoraPruebaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9866F5C203C5CB60061117F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9866F3F203C5CB60061117F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9866F46203C5CB60061117F;
+			remoteInfo = AgoraPrueba;
+		};
+		A9866F67203C5CB60061117F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9866F3F203C5CB60061117F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9866F46203C5CB60061117F;
+			remoteInfo = AgoraPrueba;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9866F47203C5CB60061117F /* AgoraPrueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraPrueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9866F4A203C5CB60061117F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9866F4C203C5CB60061117F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9866F4F203C5CB60061117F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9866F51203C5CB60061117F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9866F54203C5CB60061117F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9866F56203C5CB60061117F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9866F5B203C5CB60061117F /* AgoraPruebaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgoraPruebaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9866F5F203C5CB60061117F /* AgoraPruebaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraPruebaTests.swift; sourceTree = "<group>"; };
+		A9866F61203C5CB60061117F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9866F66203C5CB60061117F /* AgoraPruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgoraPruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9866F6A203C5CB60061117F /* AgoraPruebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraPruebaUITests.swift; sourceTree = "<group>"; };
+		A9866F6C203C5CB60061117F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9866F44203C5CB60061117F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9866F58203C5CB60061117F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9866F63203C5CB60061117F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9866F3E203C5CB60061117F = {
+			isa = PBXGroup;
+			children = (
+				A9866F49203C5CB60061117F /* AgoraPrueba */,
+				A9866F5E203C5CB60061117F /* AgoraPruebaTests */,
+				A9866F69203C5CB60061117F /* AgoraPruebaUITests */,
+				A9866F48203C5CB60061117F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9866F48203C5CB60061117F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9866F47203C5CB60061117F /* AgoraPrueba.app */,
+				A9866F5B203C5CB60061117F /* AgoraPruebaTests.xctest */,
+				A9866F66203C5CB60061117F /* AgoraPruebaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9866F49203C5CB60061117F /* AgoraPrueba */ = {
+			isa = PBXGroup;
+			children = (
+				A9866F4A203C5CB60061117F /* AppDelegate.swift */,
+				A9866F4C203C5CB60061117F /* ViewController.swift */,
+				A9866F4E203C5CB60061117F /* Main.storyboard */,
+				A9866F51203C5CB60061117F /* Assets.xcassets */,
+				A9866F53203C5CB60061117F /* LaunchScreen.storyboard */,
+				A9866F56203C5CB60061117F /* Info.plist */,
+			);
+			path = AgoraPrueba;
+			sourceTree = "<group>";
+		};
+		A9866F5E203C5CB60061117F /* AgoraPruebaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9866F5F203C5CB60061117F /* AgoraPruebaTests.swift */,
+				A9866F61203C5CB60061117F /* Info.plist */,
+			);
+			path = AgoraPruebaTests;
+			sourceTree = "<group>";
+		};
+		A9866F69203C5CB60061117F /* AgoraPruebaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9866F6A203C5CB60061117F /* AgoraPruebaUITests.swift */,
+				A9866F6C203C5CB60061117F /* Info.plist */,
+			);
+			path = AgoraPruebaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9866F46203C5CB60061117F /* AgoraPrueba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9866F6F203C5CB60061117F /* Build configuration list for PBXNativeTarget "AgoraPrueba" */;
+			buildPhases = (
+				A9866F43203C5CB60061117F /* Sources */,
+				A9866F44203C5CB60061117F /* Frameworks */,
+				A9866F45203C5CB60061117F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgoraPrueba;
+			productName = AgoraPrueba;
+			productReference = A9866F47203C5CB60061117F /* AgoraPrueba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9866F5A203C5CB60061117F /* AgoraPruebaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9866F72203C5CB60061117F /* Build configuration list for PBXNativeTarget "AgoraPruebaTests" */;
+			buildPhases = (
+				A9866F57203C5CB60061117F /* Sources */,
+				A9866F58203C5CB60061117F /* Frameworks */,
+				A9866F59203C5CB60061117F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9866F5D203C5CB60061117F /* PBXTargetDependency */,
+			);
+			name = AgoraPruebaTests;
+			productName = AgoraPruebaTests;
+			productReference = A9866F5B203C5CB60061117F /* AgoraPruebaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9866F65203C5CB60061117F /* AgoraPruebaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9866F75203C5CB60061117F /* Build configuration list for PBXNativeTarget "AgoraPruebaUITests" */;
+			buildPhases = (
+				A9866F62203C5CB60061117F /* Sources */,
+				A9866F63203C5CB60061117F /* Frameworks */,
+				A9866F64203C5CB60061117F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9866F68203C5CB60061117F /* PBXTargetDependency */,
+			);
+			name = AgoraPruebaUITests;
+			productName = AgoraPruebaUITests;
+			productReference = A9866F66203C5CB60061117F /* AgoraPruebaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9866F3F203C5CB60061117F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Alejandro Palomo Rodriguez";
+				TargetAttributes = {
+					A9866F46203C5CB60061117F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A9866F5A203C5CB60061117F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9866F46203C5CB60061117F;
+					};
+					A9866F65203C5CB60061117F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9866F46203C5CB60061117F;
+					};
+				};
+			};
+			buildConfigurationList = A9866F42203C5CB60061117F /* Build configuration list for PBXProject "AgoraPrueba" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9866F3E203C5CB60061117F;
+			productRefGroup = A9866F48203C5CB60061117F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9866F46203C5CB60061117F /* AgoraPrueba */,
+				A9866F5A203C5CB60061117F /* AgoraPruebaTests */,
+				A9866F65203C5CB60061117F /* AgoraPruebaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9866F45203C5CB60061117F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9866F55203C5CB60061117F /* LaunchScreen.storyboard in Resources */,
+				A9866F52203C5CB60061117F /* Assets.xcassets in Resources */,
+				A9866F50203C5CB60061117F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9866F59203C5CB60061117F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9866F64203C5CB60061117F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9866F43203C5CB60061117F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9866F4D203C5CB60061117F /* ViewController.swift in Sources */,
+				A9866F4B203C5CB60061117F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9866F57203C5CB60061117F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9866F60203C5CB60061117F /* AgoraPruebaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9866F62203C5CB60061117F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9866F6B203C5CB60061117F /* AgoraPruebaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9866F5D203C5CB60061117F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9866F46203C5CB60061117F /* AgoraPrueba */;
+			targetProxy = A9866F5C203C5CB60061117F /* PBXContainerItemProxy */;
+		};
+		A9866F68203C5CB60061117F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9866F46203C5CB60061117F /* AgoraPrueba */;
+			targetProxy = A9866F67203C5CB60061117F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9866F4E203C5CB60061117F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9866F4F203C5CB60061117F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9866F53203C5CB60061117F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9866F54203C5CB60061117F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9866F6D203C5CB60061117F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9866F6E203C5CB60061117F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9866F70203C5CB60061117F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPZGT688FL;
+				INFOPLIST_FILE = AgoraPrueba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.AgoraPrueba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9866F71203C5CB60061117F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPZGT688FL;
+				INFOPLIST_FILE = AgoraPrueba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.AgoraPrueba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9866F73203C5CB60061117F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPZGT688FL;
+				INFOPLIST_FILE = AgoraPruebaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.AgoraPruebaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgoraPrueba.app/AgoraPrueba";
+			};
+			name = Debug;
+		};
+		A9866F74203C5CB60061117F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPZGT688FL;
+				INFOPLIST_FILE = AgoraPruebaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.AgoraPruebaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgoraPrueba.app/AgoraPrueba";
+			};
+			name = Release;
+		};
+		A9866F76203C5CB60061117F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPZGT688FL;
+				INFOPLIST_FILE = AgoraPruebaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.AgoraPruebaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgoraPrueba;
+			};
+			name = Debug;
+		};
+		A9866F77203C5CB60061117F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPZGT688FL;
+				INFOPLIST_FILE = AgoraPruebaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.AgoraPruebaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgoraPrueba;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9866F42203C5CB60061117F /* Build configuration list for PBXProject "AgoraPrueba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9866F6D203C5CB60061117F /* Debug */,
+				A9866F6E203C5CB60061117F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9866F6F203C5CB60061117F /* Build configuration list for PBXNativeTarget "AgoraPrueba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9866F70203C5CB60061117F /* Debug */,
+				A9866F71203C5CB60061117F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9866F72203C5CB60061117F /* Build configuration list for PBXNativeTarget "AgoraPruebaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9866F73203C5CB60061117F /* Debug */,
+				A9866F74203C5CB60061117F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9866F75203C5CB60061117F /* Build configuration list for PBXNativeTarget "AgoraPruebaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9866F76203C5CB60061117F /* Debug */,
+				A9866F77203C5CB60061117F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9866F3F203C5CB60061117F /* Project object */;
+}
